@@ -23,15 +23,15 @@ public class Event {
         this.to = to;
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public LocalDate getFrom() {
+    LocalDate getFrom() {
         return from;
     }
 
-    public LocalDate getTo() {
+    LocalDate getTo() {
         return to;
     }
 }
